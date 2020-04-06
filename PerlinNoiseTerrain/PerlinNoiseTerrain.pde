@@ -17,7 +17,7 @@ float minHeight = -25;
 void setup() {
   // fullScreen(P3D);
   size(600, 600, P3D);
-  surface.setLocation(0, displayHeight/2);
+  surface.setLocation(displayWidth/2-width/2, displayHeight/2-height/2);
   cols = w/scl;
   rows = h /scl;
   terrain = new float[cols][rows];
